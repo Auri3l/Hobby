@@ -52,9 +52,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Actor.cs" />
+    <Compile Include="Core\Direction.cs" />
     <Compile Include="Core\Player.cs" />
     <Compile Include="Interfaces\IDrawable.cs" />
     <Compile Include="Interfaces\IActor.cs" />
+    <Compile Include="Systems\CommandSystem.cs" />
     <Compile Include="Systems\MapGenerator.cs" />
     <Compile Include="Core\DungeonMap.cs" />
     <Compile Include="Core\Colors.cs" />
