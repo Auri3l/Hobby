@@ -17,7 +17,8 @@ namespace RogueSharpV3Tutorial
             // The title will appear at the top of the console window
             string consoleTitle = "RougeSharp V3 Tutorial - Level 1";
             // Tell RLNet to use the bitmap font that we specified and that each tile is 8 x 8 pixels
-            _rootConsole = new RLRootConsole(fontFileName, _screenWidth, _screenHeight, 8, 8, 1f, consoleTitle);
+            _rootConsole = new RLRootConsole(fontFileName, _screenWidth, _screenHeight,
+              8, 8, 1f, consoleTitle);
             // Set up a handler for RLNET's Update event
             _rootConsole.Update += OnRootConsoleUpdate;
             // Set up a handler for RLNET's Render event
